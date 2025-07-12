@@ -1,0 +1,104 @@
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+
+# Build Folders
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.vs/
+.vscode/
+
+# Rider
+.idea/
+
+# ASP.NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core
+*.deps.json
+*.runtimeconfig.json
+*.runtimeconfig.dev.json
+*.dll
+*.exe
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+.nuget/
+packages/
+*.psmdcp
+*.nuproj
+*.symbols.nupkg
+
+# Microsoft Azure
+*.azurePubxml
+*.pubxml
+*.publishsettings
+
+# Windows Installer files
+*.msi
+*.cab
+*.msm
+*.msp
+
+# Web
+wwwroot/lib/
+node_modules/
+bower_components/
+
+# Logs
+*.log
+
+# Test Results
+TestResults/
+*.TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.vsmdi
+*.testsettings
+*.vssscc
+*.vsp
+*.vspx
+*.sap
+
+# DotCover
+.idea/
+*.dotCover
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# TeamCity
+_TeamCity/
+
+# VS Code directories
+.history/
+.vscode/
+
+# Temporary files
+~$*
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Global JSON
+global.json
+
+# Local development secrets
+secrets.json
