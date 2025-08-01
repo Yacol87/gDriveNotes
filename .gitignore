@@ -105,3 +105,4 @@ global.json
 # Local development secrets
 secrets.json
 /.vs/gDriveNotes/v17/DocumentLayout.backup.json
+/.vs/gDriveNotes/v17/DocumentLayout.json
