@@ -12,6 +12,7 @@ artifacts/
 *.sln.docstates
 .vscode/
 .idea/
+local-disk-465710-p4-6cbf4b03bfa6.json
 
 ## Rider
 *.sln.iml
