@@ -1,0 +1,80 @@
+## Build artifacts
+bin/
+obj/
+[Ll]og/
+out/
+artifacts/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+.vscode/
+.idea/
+
+## Rider
+*.sln.iml
+.idea/
+
+## VS Code
+.history/
+.vscode/
+
+## OS-specific
+.DS_Store
+Thumbs.db
+
+## ASP.NET publish output
+wwwroot/dist/
+wwwroot/node_modules/
+*.db
+
+## Configuration/secrets
+*.env
+*.secret.json
+secrets.json
+appsettings.Development.json
+
+## dotnet-specific
+project.lock.json
+project.fragment.lock.json
+*.nupkg
+*.snupkg
+*.nuspec
+
+## NuGet
+packages/
+.nuget/
+
+## Tests
+TestResults/
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+*.vsp
+*.vspx
+*.vsix
+*.dll.config
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## Global tool restore
+.tools/
+
+## Others
+*.bak
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Optional: uncomment if you're using docker
+# docker-compose.override.yml
+# *.db
+
+# Optional: if you're using credentials
+local-dis

@@ -1,0 +1,6 @@
+@gDriveNotes_HostAddress = http://localhost:5118
+
+GET {{gDriveNotes_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
