@@ -79,3 +79,5 @@ _ReSharper*/
 
 # Optional: if you're using credentials
 local-dis
+/src/Endpoints/local-disk-465710-p4-7862ec4eb80b.json
+/.vs
