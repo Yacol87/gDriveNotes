@@ -13,6 +13,7 @@ obj/
 *.suo
 *.sln.docstates
 *.vs/
+.vs/
 .vscode/
 local-disk-465710-p4-7862ec4eb80b.json
 local-disk-465710-p4-7862ec4eb80b.*
@@ -104,5 +105,3 @@ global.json
 
 # Local development secrets
 secrets.json
-/.vs/gDriveNotes/v17/DocumentLayout.backup.json
-/.vs/gDriveNotes/v17/DocumentLayout.json
