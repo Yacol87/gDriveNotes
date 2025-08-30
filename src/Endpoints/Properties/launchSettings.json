@@ -19,6 +19,12 @@
       },
       "publishAllPorts": true,
       "useSSL": true
+    },
+    "gDriveNotes": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "C:\\Users\\bukal\\source\\repos\\gDriveNotes\\src\\Endpoints\\local-disk-465710-p4-7862ec4eb80b.json"
+      }
     }
   }
 }
