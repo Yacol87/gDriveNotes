@@ -13,6 +13,7 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
+Console.WriteLine("GOOGLE_APPLICATION_CREDENTIALS: " + Environment.GetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS"));
 
 
 app.MapAllEndpoints();

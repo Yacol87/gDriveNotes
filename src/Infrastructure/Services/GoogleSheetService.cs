@@ -10,12 +10,11 @@ public class GoogleSheetService : IGoogleSheetService
     private readonly SheetsService _sheetsService;
     private readonly string _spreadsheetId;
 
-    public GoogleSheetService(string credentialsFilePath, string spreadsheetId)
+    public GoogleSheetService(string spreadsheetId)
     {
         _spreadsheetId = spreadsheetId;
-        GoogleCredential credential;
-        using var stream = new FileStream(credentialsFilePath, FileMode.Open, FileAccess.Read);
-        credential = GoogleCredential.FromStream(stream).CreateScoped(SheetsService.Scope.Spreadsheets);
+        var credential = GoogleCredential.GetApplicationDefault()
+            .CreateScoped(SheetsService.Scope.Spreadsheets);
 
         _sheetsService = new SheetsService(new BaseClientService.Initializer
         {

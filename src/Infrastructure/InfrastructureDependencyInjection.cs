@@ -14,7 +14,7 @@ public static class InfrastructureDependencyInjection
         services.AddSingleton(settings);
 
         services.AddScoped<IGoogleSheetService>(googleService =>
-            new GoogleSheetService(settings.CredentialsPath, settings.SpreadsheetId));
+            new GoogleSheetService(settings.SpreadsheetId));
         return services;
     }
 }
